@@ -1,1 +1,30 @@
-/* место для вашего кода */
+header {
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 92px 24px 96px 24px;
+    padding: 0 26px;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-link {
+    position: relative;
+    flex-shrink: 0;
+}
+  
+.menu-link + .menu-link::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: -11px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 6px;
+    height: 6px;
+}
+
