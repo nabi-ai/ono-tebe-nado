@@ -11,21 +11,36 @@
   </head>
   <body>
     <header class="header" id="header">
-      <div class="menu">
+      <div class="header__item menu">
         <a href="#header" class="menu-link">главная</a>
         <a href="#"class="menu-link">посмотреть лоты</a>
         <a href="#"class="menu-link">об аукционе</a>
       </div>
-      <img src="./images/logo-black.svg" alt="Лого" width="148px" height="105px"/>
-      <div>
+      <img class="header__item" src="./images/logo-black.svg" alt="Лого" width="148px" height="105px"/>
+      <div class="header__item">
         <a href="tel:+99995555555">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <div>наб. Принсенграхт 263- 265, Амстердам</div>
       </div>
     </header>
-    <cover>
-      
-    </cover>
+    <section class="first-section">
+      <div class="first-section__content">
+        <div class="word first-word">
+          <span class="one-letter-right-margin">ОН</span><span>О</span>
+        </div>
+        <div class="word second-word">
+          <span class="one-letter-right-margin">ТЕБ</span><span>Е</span>
+        </div>
+        <div class="word third-word">
+          <span>Н</span><span class="one-letter-left-margin">АДО</span>
+        </div>
+        <div class="first-section-footer">
+          <div class="first-section-footer__text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</div>
+          <button class="second-section-footer__button">СДЕЛАТЬ СТАВКУ</button>
+        </div>
+      </div>
+      <div class="section-overlay"></div>
+    </section>
     <lots></lots>
     <about></about>
     <footer></footer>
