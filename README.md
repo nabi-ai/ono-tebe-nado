@@ -1,1 +1,1 @@
-Сдача проектной работы «Оно тебе надо»
+https://github.com/nabi-ai/ono-tebe-nado
